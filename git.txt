@@ -1,0 +1,9 @@
+git init:初始化
+git status：查看状态
+git add <文件名>：追踪文件，添加到暂存区
+git commit -m '备注' <文件名>：提交文件到本地库
+git reflog / git log：查看日志
+git reset --hard 版本号：版本切换
+git rm --cached <file>：丢弃工作目录中对文件的修改，将其还原为最近一次提交的状态。
+git restore <file>：用于取消暂存区中对文件的修改，将其还原为最近一次提交的状态，并保留工作目录中的修改
+git restore --staged <file>：用于停止跟踪某个文件，将其从暂存区中移除，但保留在工作目录中。
